@@ -30,9 +30,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-black text-white py-5 md:py-40 text-center">
-        <h2 className="lg:text-8xl md:text-5xl font-extrabold text-yellow-500 leading-tight">Empowering Artists,</h2>
-        <p className="lg:text-8xl md:text-5xl font-extrabold mt-2 leading-tight">Building Brands</p>
+      <section className="bg-black text-white py-5 py-40 text-center">
+        <h2 className="lg:text-8xl text-4xl font-extrabold text-yellow-500 leading-tight">Empowering Artists,</h2>
+        <p className="lg:text-8xl text-4xl font-extrabold mt-2 leading-tight">Building Brands</p>
         <p className="text-sm md:text-lg mt-6 max-w-xl mx-auto px-4">The all-in-one platform for music production, dreadlocks styling, and digital distribution.</p>
       </section>
 
@@ -42,7 +42,7 @@ export default function Home() {
         {/* Dreadlocks Styling */}
         <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h3 className="lg:text-6xl md:text-4xl font-bold text-black">Dreadlocks Styling</h3>
+            <h3 className="lg:text-6xl text-4xl font-bold text-black">Dreadlocks Styling</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Custom dreadlocks installation, maintenance, and styling to create a unique look for artists.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
         {/* Music Production */}
         <div className="flex flex-col lg:flex-row-reverse items-center lg:space-x- space-y-6 lg:space-y-0">
           <div className="lg:w-1/2 text-center lg:text-left px-8">
-            <h3 className="lg:text-6xl md:text-4xl font-bold text-black">Music Production</h3>
+            <h3 className="lg:text-6xl text-4xl font-bold text-black">Music Production</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Professional recording, mixing, and mastering services to ensure high-quality music.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
         {/* Digital Distribution */}
         <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h3 className="lg:text-6xl md:text-4xl font-bold text-black">Digital Distribution</h3>
+            <h3 className="lg:text-6xl text-4xl font-bold text-black">Digital Distribution</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Get your music on all major streaming platforms and track your earnings with ease.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
