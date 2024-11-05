@@ -31,8 +31,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-black text-white py-16 md:py-32 text-center">
-        <h2 className="text-8xl md:text-5xl font-extrabold text-yellow-500">Empowering Artists,</h2>
-        <p className="text-3xl md:text-5xl font-extrabold mt-2">Building Brands</p>
+        <h2 className="text-3xl md:text-5xl font-extrabold text-yellow-500 leading-tight">Empowering Artists,</h2>
+        <p className="text-3xl md:text-5xl font-extrabold mt-2 leading-tight">Building Brands</p>
         <p className="text-sm md:text-lg mt-6 max-w-xl mx-auto px-4">The all-in-one platform for music production, dreadlocks styling, and digital distribution.</p>
       </section>
 
@@ -46,7 +46,7 @@ export default function Home() {
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Custom dreadlocks installation, maintenance, and styling to create a unique look for artists.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
-          <img src="/dreads.png" alt="Dreadlocks Styling" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <img src="/dreads.png" alt="Dreadlocks Styling" className="lg:w-1/2 w-full rounded " />
         </div>
 
         {/* Music Production */}
@@ -56,7 +56,7 @@ export default function Home() {
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Professional recording, mixing, and mastering services to ensure high-quality music.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
-          <img src="/music-production.png" alt="Music Production" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <img src="/music-production.png" alt="Music Production" className="lg:w-1/2 w-full rounded " />
         </div>
 
         {/* Digital Distribution */}
@@ -66,7 +66,7 @@ export default function Home() {
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Get your music on all major streaming platforms and track your earnings with ease.</p>
             <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
           </div>
-          <img src="/music-distribution.png" alt="Digital Distribution" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <img src="/music-distribution.png" alt="Digital Distribution" className="lg:w-1/2 w-full rounded " />
         </div>
       </section>
 
