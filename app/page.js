@@ -1,43 +1,86 @@
-// pages/index.js
-import Head from 'next/head';
+  // pages/index.js
+  import Head from 'next/head';
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-export default function Home() {
-  return (
-    <div className="bg-cover bg-center min-h-screen flex items-center justify-center" style={{ backgroundImage: "url('/bg-1.jpg')" }}>
-      <Head>
-        <title>TrapStation - Dreadlock Services</title>
-        <meta name="description" content="Professional dreadlock services for your unique style" />
-      </Head>
-      <div className="bg-black bg-opacity-0 w-full h-full flex flex-col lg:flex-row items-center justify-between p-4 lg:p-20 gap-10">
+
+  export default function Home() {
+    return (
+      <div className="bg-white">
+        <Head>
+          <title>TrapStation - Empowering Artists, Building Brands</title>
+          
+          <meta name="description" content="TrapStation: The all-in-one platform for music production, dreadlocks styling, and digital distribution." />
+        </Head>
+
+        {/* Announcement Banner */}
+        <div className="bg-yellow-500 text-white text-center py-2 text-sm">
+          70% off on all services
+        </div>
+
+        {/* Navbar */}
+        <header className="bg-black text-white py-4 px-10 flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <img src="/logo.png" alt="TrapStation Logo" className="w-auto" />
+          </div>
+          <nav className="hidden md:flex space-x-8 text-sm">
+            <a href="#" className="hover:text-yellow-500 text-xl">Home</a>
+            <a href="#" className="hover:text-yellow-500 text-xl">Dreads Style</a>
+            <a href="#" className="hover:text-yellow-500 text-xl">Music Distribution</a>
+            <a href="#" className="hover:text-yellow-500 text-xl">About Us</a>
+            <a href="#" className="hover:text-yellow-500 text-xl">Contact Us</a>
+          </nav>
+        </header>
+
+        {/* Hero Section */}
+        <section className="bg-black text-white py-40 text-center">
+          <h2 className="text-9xl md:text-6xl font-extrabold text-yellow-500">Empowering Artists,</h2>
+          <p className="text-9xl md:text-6xl font-extrabold mt-2">Building Brands</p>
+          <p className="text-lg mt-6 max-w-2xl mx-auto">The all-in-one platform for music production, dreadlocks styling, and digital distribution.</p>
+        </section>
+
+        {/* Services Section */}
+        <section className="py-20 px-4 md:px-10 lg:px-20 space-y-20">
+
+          {/* Dreadlocks Styling */}
+          <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
+            <div className="lg:w-1/2">
+              <h3 className="text-4xl font-bold">Dreadlocks Styling</h3>
+              <p className="mt-4 text-2xl text-gray-700">Custom dreadlocks installation, maintenance, and styling to create a unique look for artists.</p>
+              <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Learn More</button>
+            </div>
+            <img src="/dreads.png" alt="Dreadlocks Styling" className="lg:w-1/2 rounded " />
+          </div>
+
+          {/* Music Production */}
+          <div className="flex flex-col lg:flex-row-reverse items-center ">
+            <div className="lg:w-1/2">
+              <h3 className="text-4xl font-bold">Music Production</h3>
+              <p className="mt-4 text-2xl text-gray-700">Professional recording, mixing, and mastering services to ensure high-quality music.</p>
+              <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Learn More</button>
+            </div>
+            <img src="/music-production.png" alt="Music Production" className="lg:w-1/2 rounded lg:mr-8" />
+          </div>
+
+          {/* Digital Distribution */}
+          <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
+            <div className="lg:w-1/2">
+              <h3 className="text-4xl font-bold">Digital Distribution</h3>
+              <p className="mt-4 text-2xl text-gray-700">Get your music on all major streaming platforms and track your earnings with ease.</p>
+              <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Learn More</button>
+            </div>
+            <img src="/music-distribution.png" alt="Digital Distribution" className="lg:w-1/2 rounded " />
+          </div>
+        </section>
+
+        {/* Subscription Section */}
+        <section className="bg-gray-100 py-20 text-center">
+          <h3 className="text-3xl font-bold">Artists can subscribe for all latest updates</h3>
+          <button className="mt-8 bg-yellow-500 text-white px-8 py-3 rounded font-semibold">Subscribe</button>
+        </section>
+
         
-        {/* Left Section - Heading */}
-        <div className="text-white max-w-md text-center lg:text-left">
-          <img src="/logo.png" alt="TrapStation Logo" className="mb-4 mx-auto lg:mx-0 w-auto h-1/2" />
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Professional Dreadlock Services for Your Unique Style</h1>
-          <p className="text-lg mb-6">Contact Us Today to Start Your Dreadlock Journey or Maintain Your Locs with Our Expert Stylists</p>
-          <button className="bg-white text-black px-6 py-3 rounded font-semibold hover:bg-gray-200">Book Now</button>
-        </div>
 
-        {/* Right Section - Contact Form */}
-        <div className="bg-white bg-opacity-50 p-8 rounded-lg w-full max-w-md shadow-lg">
-          <h2 className="text-2xl font-semibold mb-4 text-center">Fill your details for booking</h2>
-          <form className="space-y-4">
-            <div>
-              <label className="block text-gray-700">Name</label>
-              <input type="text" className="w-full p-2 border rounded focus:outline-none focus:ring focus:ring-blue-300" placeholder="Name" required />
-            </div>
-            <div>
-              <label className="block text-gray-700">Email Address</label>
-              <input type="email" className="w-full p-2 border rounded focus:outline-none focus:ring focus:ring-blue-300" placeholder="Email Address" required />
-            </div>
-            <div>
-              <label className="block text-gray-700">WhatsApp Number</label>
-              <input type="text" className="w-full p-2 border rounded focus:outline-none focus:ring focus:ring-blue-300" placeholder="WhatsApp Number" required />
-            </div>
-            <button type="submit" className="w-full bg-black text-white py-2 rounded font-semibold hover:bg-gray-800">Submit</button>
-          </form>
-        </div>
+
       </div>
-    </div>
-  );
-}
+    );
+  }
