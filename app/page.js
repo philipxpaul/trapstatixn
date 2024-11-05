@@ -30,7 +30,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-black text-white py-5 py-40 text-center">
+      <section className="bg-black text-white py-5 py-60 text-center">
         <h2 className="lg:text-8xl text-4xl font-extrabold text-yellow-500 leading-tight">Empowering Artists,</h2>
         <p className="lg:text-8xl text-4xl font-extrabold mt-2 leading-tight">Building Brands</p>
         <p className="text-sm md:text-lg mt-6 max-w-xl mx-auto px-4">The all-in-one platform for music production, dreadlocks styling, and digital distribution.</p>
