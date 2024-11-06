@@ -10,25 +10,6 @@ export default function Home() {
         <meta name="description" content="TrapStation: The all-in-one platform for music production, dreadlocks styling, and digital distribution." />
       </Head>
 
-      {/* Announcement Banner */}
-      <div className="bg-yellow-500 text-white text-center py-2 text-xs md:text-sm ">
-        70% off on all services
-      </div>
-
-      {/* Navbar */}
-      <header className="bg-black text-white py-4 px-6 md:px-10 flex items-center justify-between">
-        <div className="flex items-center space-x-4">
-          <img src="/logo.png" alt="TrapStation Logo" className="w-auto md:w-auto" />
-        </div>
-        <nav className="hidden md:flex space-x-6 text-sm">
-          <a href="#" className="hover:text-yellow-500 text-xl ">Home</a>
-          <a href="#" className="hover:text-yellow-500 text-xl">Dreads Style</a>
-          <a href="#" className="hover:text-yellow-500 text-xl">Music Distribution</a>
-          <a href="#" className="hover:text-yellow-500 text-xl">About Us</a>
-          <a href="#" className="hover:text-yellow-500 text-xl">Contact Us</a>
-        </nav>
-      </header>
-
       {/* Hero Section */}
       <section className="bg-black text-white py-5 py-60 text-center">
         <h2 className="lg:text-8xl text-4xl font-extrabold text-yellow-500 leading-tight">Empowering Artists,</h2>
