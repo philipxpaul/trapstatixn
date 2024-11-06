@@ -85,7 +85,7 @@ export default function MusicProduction() {
       <section className="py-12 md:py-20 text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Take Your Music to the Next Level</h2>
         <p className="mt-4 text-gray-700 text-base md:text-lg max-w-2xl mx-auto px-4">
-          Book your session today and work with our experienced team to produce the high-quality music you deserve. We can't wait to hear what you create!
+          Book your session today and work with our experienced team to produce the high-quality music you deserve. We can&apost wait to hear what you create!
         </p>
         <button className="mt-8 bg-yellow-500 text-white px-8 py-3 rounded font-semibold">Book Now</button>
       </section>
