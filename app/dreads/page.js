@@ -15,7 +15,7 @@ export default function Dreadlocks() {
       <section className="bg-black text-white py-16 md:py-32 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-yellow-500">Professional Dreadlock Services</h1>
         <p className="text-base md:text-lg mt-6 max-w-xl mx-auto px-4">
-          Whether you're looking to start your dreadlock journey or maintain your existing locs, our experienced stylists are here to help you every step of the way.
+          Whether you&aposre looking to start your dreadlock journey or maintain your existing locs, our experienced stylists are here to help you every step of the way.
         </p>
       </section>
 
@@ -87,7 +87,7 @@ export default function Dreadlocks() {
       <section className="py-12 md:py-20 text-center">
         <h2 className="text-3xl md:text-4xl font-bold">Ready to Get Started?</h2>
         <p className="mt-4 text-gray-700 text-base md:text-lg max-w-2xl mx-auto px-4">
-          Book your appointment today and let our experts help you achieve the perfect look. We can't wait to see you!
+          Book your appointment today and let our experts help you achieve the perfect look. We can&apost wait to see you!
         </p>
         <button className="mt-8 bg-yellow-500 text-white px-8 py-3 rounded font-semibold">Book Now</button>
       </section>

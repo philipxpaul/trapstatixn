@@ -54,7 +54,7 @@ export default function AboutUs() {
       <section className="py-12 md:py-20 px-4 md:px-10 lg:px-20 space-y-12">
         <h2 className="text-3xl md:text-4xl font-bold text-center">Our Story</h2>
         <p className="mt-4 text-gray-700 text-base md:text-lg max-w-3xl mx-auto px-4 text-center">
-          TrapStation was born out of a shared passion for art, music, and technology. Wilson and Philips Paul, two brothers with diverse talents, combined their skills to create a platform that supports artists in their journey. With Wilson's expertise in dreadlock artistry and Philips' background in technology, they built TrapStation to be a space where creativity and innovation come together.
+          TrapStation was born out of a shared passion for art, music, and technology. Wilson and Philips Paul, two brothers with diverse talents, combined their skills to create a platform that supports artists in their journey. With Wilson&aposs expertise in dreadlock artistry and Philips&apos background in technology, they built TrapStation to be a space where creativity and innovation come together.
         </p>
       </section>
     </div>
