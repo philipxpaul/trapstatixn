@@ -54,14 +54,14 @@ export default function MusicProduction() {
               Our mastering services will put the final touches on your track, making it ready for streaming, radio, and distribution with pristine quality.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from $100 per track</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">coming soon text-black</button>
+            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">coming soon </button>
           </div>
         </div>
       </section>
 
       {/* Pricing Section */}
       <section className="bg-gray-100 py-12 md:py-20 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold">Music Production Pricing</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-black">Music Production Pricing</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-20">
           <div className="bg-white shadow-lg rounded-lg p-6">
             <h3 className="text-xl font-bold mb-4 text-black">Recording Services</h3>
