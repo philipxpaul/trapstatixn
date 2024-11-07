@@ -1,5 +1,6 @@
 // pages/index.js
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -25,8 +26,11 @@ export default function Home() {
           <div className="lg:w-1/2 text-center lg:text-left">
             <h3 className="lg:text-6xl text-4xl font-bold text-black">Dreadlocks Styling</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Custom dreadlocks installation, maintenance, and styling to create a unique look for artists.</p>
-            <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            <Link href="/dreads">
+              <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            </Link>
           </div>
+          
           <img src="/dreads.png" alt="Dreadlocks Styling" className="lg:w-1/2 w-full rounded " />
         </div>
 
@@ -35,8 +39,11 @@ export default function Home() {
           <div className="lg:w-1/2 text-center lg:text-left px-8">
             <h3 className="lg:text-6xl text-4xl font-bold text-black">Music Production</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Professional recording, mixing, and mastering services to ensure high-quality music.</p>
-            <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            <Link href="/music">
+              <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            </Link>
           </div>
+          
           <img src="/music-production.png" alt="Music Production" className="lg:w-1/2 w-full rounded " />
         </div>
 
@@ -45,7 +52,9 @@ export default function Home() {
           <div className="lg:w-1/2 text-center lg:text-left">
             <h3 className="lg:text-6xl text-4xl font-bold text-black">Digital Distribution</h3>
             <p className="mt-4 text-gray-700 text-sm md:text-lg">Get your music on all major streaming platforms and track your earnings with ease.</p>
-            <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            <Link href="/digital">
+              <button className="mt-4 md:mt-6 bg-yellow-500 text-white px-4 md:px-6 py-2 md:py-3 rounded">Learn More</button>
+            </Link>
           </div>
           <img src="/music-distribution.png" alt="Digital Distribution" className="lg:w-1/2 w-full rounded " />
         </div>
@@ -54,11 +63,13 @@ export default function Home() {
       {/* Subscription Section */}
       <section className="bg-gray-100 py-12 md:py-20 text-center">
         <h3 className="text-2xl md:text-3xl font-bold text-black">Artists can subscribe for all latest updates</h3>
-        <button className="mt-6 md:mt-8 bg-yellow-500 text-white px-6 md:px-8 py-2 md:py-3 rounded font-semibold">Subscribe</button>
+        <Link href="/subscribe">
+          <button className="mt-6 md:mt-8 bg-yellow-500 text-white px-6 md:px-8 py-2 md:py-3 rounded font-semibold">Subscribe</button>
+        </Link>
       </section>
 
       {/* Footer */}
-
+      {/* Add your footer here */}
     </div>
   );
 }
