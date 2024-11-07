@@ -21,7 +21,7 @@ export default function AboutUs() {
       <section className="py-12 md:py-20 px-4 md:px-10 lg:px-20 space-y-12">
         {/* Wilson Paul */}
         <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
-          <img src="/wilson-paul.jpg" alt="Wilson Paul" className="lg:w-1/3 w-full rounded shadow-lg" />
+          <img src="/wilson.png" alt="Wilson Paul" className="lg:w-1/3 w-full rounded shadow-lg" />
           <div className="lg:w-2/3 text-center lg:text-left px-4 lg:px-0">
             <h2 className="text-3xl md:text-4xl font-bold">Wilson Paul</h2>
             <p className="mt-4 text-gray-700 text-base md:text-lg">
@@ -31,15 +31,24 @@ export default function AboutUs() {
         </div>
 
         {/* Philips Paul */}
-        <div className="flex flex-col lg:flex-row-reverse items-center lg:space-x-12 space-y-6 lg:space-y-0">
-          <img src="/philips-paul.jpg" alt="Philips Paul" className="lg:w-1/3 w-full rounded shadow-lg" />
-          <div className="lg:w-2/3 text-center lg:text-left px-4 lg:px-0">
+        <div className="flex flex-col lg:flex-row-reverse items-center space-y-6 lg:space-y-0">
+          <img
+            src="/Philips.jpeg"
+            alt="Philips Paul"
+            className="lg:w-1/3 w-full rounded shadow-lg"
+          />
+          <div className="lg:w-2/3 text-center lg:text-left px-4 lg:px-0 lg:ml-8">
             <h2 className="text-3xl md:text-4xl font-bold">Philips Paul</h2>
             <p className="mt-4 text-gray-700 text-base md:text-lg">
-              Philips Paul is a tech engineer with 8 years of experience in the tech industry. He is also the owner of Luink, a social media platform that blends creativity and networking. Philips is passionate about leveraging technology to create opportunities for artists and entrepreneurs, helping them connect and grow in the digital space.
+              Philips Paul is a tech engineer with 8 years of experience in the tech
+              industry. He is also the owner of Luink, a social media platform that
+              blends creativity and networking. Philips is passionate about
+              leveraging technology to create opportunities for artists and
+              entrepreneurs, helping them connect and grow in the digital space.
             </p>
           </div>
         </div>
+
       </section>
 
       {/* Vision Section */}

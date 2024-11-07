@@ -1,8 +1,18 @@
 // pages/dreadlocks.js
+"use client"
 import Head from 'next/head';
 // import Header from './components/header';
+import { useState, useEffect } from 'react';
+import GoogleLoginForm from '../components/googleLoginForm';
 
 export default function Dreadlocks() {
+    const [showLoginForm, setShowLoginForm] = useState(false);
+  
+    const handleBookNowClick = () => {
+      setShowLoginForm(true);
+    };
+  
+
   return (
     <div className="bg-white">
       <Head>
@@ -30,7 +40,7 @@ export default function Dreadlocks() {
               Get professionally installed dreadlocks using premium quality materials. Our expert stylists ensure that your new locs are perfectly tailored to your desired thickness, length, and style.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from ₹10,000 depending upon hair length</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
+            <button onClick={handleBookNowClick} className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
           </div>
         </div>
 
@@ -43,7 +53,7 @@ export default function Dreadlocks() {
               Keep your locs looking fresh with our maintenance services. We offer retwisting, repair, and deep cleansing to keep your locs healthy and stylish.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from ₹1000 per session</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
+            <button onClick={handleBookNowClick} className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
           </div>
         </div>
 
@@ -89,8 +99,18 @@ export default function Dreadlocks() {
         <p className="mt-4 text-gray-700 text-base md:text-lg max-w-2xl mx-auto px-4">
           Book your appointment today and let our experts help you achieve the perfect look. We can&apost wait to see you!
         </p>
-        <button className="mt-8 bg-yellow-500 text-white px-8 py-3 rounded font-semibold">Book Now</button>
+        <button onClick={handleBookNowClick} className="mt-8 bg-yellow-500 text-white px-8 py-3 rounded font-semibold">Book Now</button>
       </section>
+      {/* Booking Form Section */}
+      {showLoginForm && (
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+          <div className="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+            <GoogleLoginForm  />
+            <button onClick={() => setShowLoginForm(false)} className="mt-4 bg-red-500 text-white px-4 py-2 rounded">Close</button>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }

@@ -21,40 +21,40 @@ export default function MusicProduction() {
       <section className="py-12 md:py-20 px-4 md:px-10 lg:px-20 space-y-12">
         {/* Service 1 - Recording */}
         <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
-          <img src="/music-recording.jpg" alt="Music Recording" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <img src="/recording.jpg" alt="Music Recording" className="lg:w-1/2 w-full rounded shadow-lg" />
           <div className="lg:w-1/2 text-center lg:text-left px-4 lg:px-0">
             <h2 className="text-3xl md:text-4xl font-bold">Recording Services</h2>
             <p className="mt-4 text-gray-700 text-base md:text-lg">
               Our state-of-the-art recording studio is equipped with high-quality gear and experienced engineers to capture your music in its purest form.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from $150 per session</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
+            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">coming soon</button>
           </div>
         </div>
 
         {/* Service 2 - Mixing */}
-        <div className="flex flex-col lg:flex-row-reverse items-center lg:space-x-12 space-y-6 lg:space-y-0">
-          <img src="/music-mixing.jpg" alt="Music Mixing" className="lg:w-1/2 w-full rounded shadow-lg" />
-          <div className="lg:w-1/2 text-center lg:text-left px-4 lg:px-0">
+        <div className="flex flex-col lg:flex-row-reverse items-center  lg:space-y-0">
+          <img src="/mixing.jpg" alt="Music Mixing" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <div className="lg:w-2/3 text-center lg:text-left px-4 lg:px-0 lg:ml-8">
             <h2 className="text-3xl md:text-4xl font-bold">Mixing Services</h2>
             <p className="mt-4 text-gray-700 text-base md:text-lg">
               Our mixing services will give your music the balance it needs to shine. We use the latest techniques to ensure your music sounds amazing across all devices.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from $200 per track</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
+            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">coming soon</button>
           </div>
         </div>
 
         {/* Service 3 - Mastering */}
         <div className="flex flex-col lg:flex-row items-center lg:space-x-12 space-y-6 lg:space-y-0">
-          <img src="/music-mastering.jpg" alt="Music Mastering" className="lg:w-1/2 w-full rounded shadow-lg" />
+          <img src="/mastering.jpg" alt="Music Mastering" className="lg:w-1/2 w-full rounded shadow-lg" />
           <div className="lg:w-1/2 text-center lg:text-left px-4 lg:px-0">
             <h2 className="text-3xl md:text-4xl font-bold">Mastering Services</h2>
             <p className="mt-4 text-gray-700 text-base md:text-lg">
               Our mastering services will put the final touches on your track, making it ready for streaming, radio, and distribution with pristine quality.
             </p>
             <p className="mt-4 text-yellow-500 text-lg font-semibold">Starting from $100 per track</p>
-            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">Book Now</button>
+            <button className="mt-6 bg-yellow-500 text-white px-6 py-3 rounded">coming soon</button>
           </div>
         </div>
       </section>
