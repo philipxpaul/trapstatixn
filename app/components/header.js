@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-black text-white py-4 px-6 md:px-10 flex items-center justify-between relative">
+    <header className="sticky top-0 z-50 bg-black text-white py-4 px-6 md:px-10 flex items-center justify-between relative">
       <div className="flex items-center space-x-4">
         <Link href="/" className="hover:text-yellow-500">
           <img src="/logo.png" alt="TrapStation Logo" className="w-auto md:w-auto" />
